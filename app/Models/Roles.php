@@ -2,16 +2,15 @@
 
 namespace App\Models;
 
-use Database\Factories\StatusFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Status extends Model
+class  Roles extends Model
 {
-    /** @use HasFactory<StatusFactory> */
+    /** @use HasFactory<\Database\Factories\RolesFactory> */
     use HasFactory;
 
-    protected $fillable = [
-        'status',
+    public $fillable = [
+        'name',
     ];
 }

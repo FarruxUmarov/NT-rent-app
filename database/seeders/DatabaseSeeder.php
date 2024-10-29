@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Roles;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -21,6 +22,7 @@ class DatabaseSeeder extends Seeder
             BranchSeeder::class,
             AdsSeeder::class,
             AdsImageSeeder::class,
+            RolesSeeder::class,
         ]);
     }
 }

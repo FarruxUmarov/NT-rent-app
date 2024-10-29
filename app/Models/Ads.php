@@ -9,4 +9,15 @@ class Ads extends Model
 {
     /** @use HasFactory<\Database\Factories\AdsFactory> */
     use HasFactory;
+
+    public $fillable = [
+        'title',
+        'description',
+        'user_id',
+        'status_id',
+        'brand_id',
+        'address',
+        'price',
+        'rooms'
+    ];
 }
