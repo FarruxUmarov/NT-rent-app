@@ -15,7 +15,7 @@ class Ads extends Model
         'description',
         'user_id',
         'status_id',
-        'brand_id',
+        'branch_id',
         'address',
         'price',
         'rooms'
